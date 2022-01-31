@@ -1,0 +1,63 @@
+:root{
+    /* Colors */
+    --primary-color: rgb(8, 8, 189);
+    --secondary-color: rgba(59, 15, 129, 0.952);
+    --tertiary-color: rgb(41, 222, 242);
+    --aux-color: green;
+    --white: #fff;
+    --black: #000;
+    --grey: #333333;
+
+    /* Fonts */
+    --primary-font: Arial, Helvetica, sans-serif;
+
+    /* Sizes */
+    --bar-height: 72px;
+}
+
+/* Globals */
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    background: var(--grey);
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+h1,
+h2,
+h3{
+    text-align: center;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.6rem;
+}
+h3{
+    font-size: 3rem;
+}
+.wrapper{
+    background-color: var(--white);
+    overflow: auto;
+}
+.container{
+    margin: 0 auto;
+    max-width: 120rem;
+    width: 95%;
+    padding: 0 1.5rem;
+    position: relative;
+}
